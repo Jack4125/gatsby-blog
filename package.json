@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-blog-template",
+  "private": true,
+  "description": "A starter for Gatsby blog",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.5.0",
+    "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-remark-images": "^3.5.1",
+    "gatsby-source-filesystem": "^2.5.0",
+    "gatsby-transformer-remark": "^2.10.0",
+    "gatsby-transformer-sharp": "^2.6.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

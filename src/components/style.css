@@ -1,0 +1,12 @@
+/* Edit blog images */
+/* .gatsby-resp-image-wrapper {
+  width: 50%;
+} */
+
+header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
